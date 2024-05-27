@@ -1,5 +1,5 @@
 from Database_Connection import connect_database
-
+#author class
 class Author:
     def __init__(self, name, biography):
         self.name = name

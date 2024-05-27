@@ -1,5 +1,5 @@
 from Database_Connection import connect_database
-
+# genre class
 class Genre:
     def __init__(self, name, description, category):
         self.name = name

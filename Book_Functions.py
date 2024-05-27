@@ -1,5 +1,6 @@
 from Database_Connection import connect_database
 import datetime
+# Book class
 class Book:
     def __init__(self, title, author_id, genre_id, isbn, publication_date, availability):
         self.title = title
